@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Guitar Center</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<!-- Brand/logo -->
+	<nav class="navbar navbar navbar-expand-md navbar-dark container-fluid header_top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+    		<img src="./Images/Logo-guitarcenter.jpg" width="90" height="60" alt="">
+			</a>
+			<!--Collapse Button-->
+			<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapse_target" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--Link-->
+			<div class="collapse navbar-collapse justify-content-end" id="collapse_target">
+				<ul class="nav navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Wow</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--	Content start -->
+	<div class="container">
+		<div class="row">
+			<div class="col col-xl-4 col-lg-4 col-sm-6 col-xs-6">
+
+				<img id='ord_img' class='size' />
+			</div>
+			<div class="col col-xl-8 col-lg-8 col-sm-6 col-xs-6 conf_details">
+<!--				
+                    <span class="anchor" id="formUserEdit"></span>
+                   
+
+                    <!-- form user info -->
+                    <div class="card card-outline-secondary">
+                        <div class="card-header">
+                            <h3 class="mb-0">Confirmation Detail</h3>
+                        </div>
+                        <div class="card-body">
+                            <form class="form" role="form" autocomplete="off">
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label font_size">First name:</label>
+                                     <label class=" col-lg-9 col-form-label form-control-label" id="getFName"></label>
+                     
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label font_size">Last name:</label>
+                                     <label class=" col-lg-9 col-form-label form-control-label" id="getLName"></label>
+                                   
+                                </div>
+                               
+                                 <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label font_size">Shipping Address:</label>
+                                     <label class=" col-lg-9 col-form-label form-control-label" id="getShipAdd"></label>
+                                   
+                                </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label font_size">Email ID:</label>
+                                     <label class=" col-lg-9 col-form-label form-control-label" id="getEmail"></label>
+                                   
+                                </div>
+                                 <div class="form-group row">
+                                    <label class="col-lg-3 col-form-label form-control-label"></label>
+                                    <div class="col-lg-9">
+                                        <input type="reset" class="btn btn-primary" value="Go To Home" id="goToHome">
+								  </div>
+                                </div>
+
+                            </form>
+                      
+                    </div>
+                    <!-- /form user info -->
+
+				 </div>
+			</div>
+		</div>
+	</div>	
+	
+	<footer>
+		<div class="footer-bottom">
+			<div class="container ">
+				<div class="row">
+					<div class="col-12">
+					<!--Footer Bottom-->
+						<p class="text-center">Copyright &copy; Created by Pritesh Patel</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="./confirm.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+{
+    "allProducts": [
+        {
+            "product_image":"product1.jpg",
+            "product_description": "These are one of the several Squier models available that offer a pretty good product for a reasonably low price. The pick-ups and hardware are sometimes suspect, and the workmanship varies from instrument to instrument. But for the price, these are a very good beginner's choice.",
+            "shipping_details": "Charges for shipping $20.",
+            "customer_reviews": " Hmm...well, sounds like a tele at low volumes...the higher the volume, the worse the squeals, like a pig really...ah well, it's a cheap guitar...also tends to rattle above the 10th fret. On the 1st and 2nd strings (to the point of fretting out completely), and on the 5 and 6 stings on the 1st through 3rd frets...weird...action. Settings help, but not much...hard to set the intonation as well (read, damn near impossible)... ",
+            "price": "$204.99",
+            "stock_availability": "true",
+            "no_of_items": "10"
+        },
+        {
+            "product_image":"product2.jpg",
+            "product_description": "Modelled after the much more expensive Gibson SG guitars, the Epiphone SG G310 keeps it's cost low by using cheaper hardware and lower quality humbucking pick-ups. The G-310 features an alder body, a mahogany neck, and a dot-inlayed rosewood fingerboard.",
+            "shipping_details": "Charges for shipping $25.",
+            "customer_reviews": "  Heck...I bought it as a knock around guitar I could beat up a little as I carried it around with me. (I hate not having a guitar next to me...)...but it hasn't even fit this role very well. I considered putting in new pickups and tuners...but the whole buzzing thing seems impossible to cure. well, there you go...I'm planning to sell it, or failing that. When my new band plays our first show I guess I'll pull a Townsend on it...",
+            "price": "$249.00",
+            "stock_availability": "true",
+            "no_of_items": "14"
+        },
+        {
+            "product_image":"product3.jpg",
+            "product_description": "Here's another guitar many people feel is a great value. This Pacifica features an agathis body, maple neck, and rosewood fretboard, with two single coil pick-ups, and one humbucker. The consensus is the guitar is reasonably well made, and the quality of the wood tends to be high.",
+            "shipping_details": "Charges for shipping $18.",
+            "customer_reviews": "  Yup...those were the pros above...basically this guitar. I guess it might be okay if you need something that looks and feels like a guitar. hmm...well, hit it hard and it chips...no finish flaws though. The tuners suck so bad it's hard to describe...tuning it is a real pain...but it doesn't go out too quickly I guess...Just to practice on if you don't care what it sounds like at all... ",
+            "price": "$179.99",
+            "image_path": "Guitar Images/product3.jpg",
+            "stock_availability": "true",
+            "no_of_items": "14"
+        }
+        
+    ]
+}

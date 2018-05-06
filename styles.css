@@ -1,0 +1,76 @@
+
+body{
+	background-image: url(Images/bg.jpg);
+/*	width: 70%;*/
+	margin: 0 auto;
+}
+/*
+.img_box {
+	width: 405px;
+	height: 505px;
+	margin: 0 auto
+}
+*/
+
+.size {
+	width: 250px;
+	height: 350px;
+	align-items: center;
+	margin: 20px auto;
+}
+
+/*
+.desc {
+	width: 400px;
+	margin: 0 auto;
+}
+*/
+
+#confInfo {
+	display: none;
+}
+#prev.btn{
+	padding: 10px 25px;
+}
+#nxt.btn{
+	padding: 10px 25px;
+}
+.btn.content{
+ 
+}
+#buy{
+	padding: 5px 25px;
+}
+.header_top{
+	background: #212529;
+}
+.footer-bottom{
+  background: #212529;
+  padding: 2em;
+	color: white;
+}
+.footer-bottom p {
+	margin: 0;
+	padding: 0;
+}
+button{
+/*	width:130px;*/
+	align-items: center;
+	
+}
+#result{
+	color: white;
+	margin: 20px auto;
+}
+#price{
+	color: white
+}
+#price_s{
+	color: white;
+}
+.font_size{
+	font-weight: bold
+}
+.conf_details{
+	margin: 20px auto;
+}
